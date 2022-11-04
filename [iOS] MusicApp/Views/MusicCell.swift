@@ -15,6 +15,10 @@ class MusicCell: UITableViewCell {
     @IBOutlet var albumNameLabel: UILabel!
     @IBOutlet var releaseDateLabel: UILabel!
     
+    var imageUrl: String? {
+         
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

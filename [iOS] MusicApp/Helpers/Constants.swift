@@ -8,15 +8,15 @@
 import UIKit
 
 public enum MusicApi {
-    static let requestUrl
-    static let mediaParam
+    static let requestUrl = "https://itunes.apple.com/search?"
+    static let mediaParam = "media=music"
 }
 
 public struct Cell {
-    static let musicCellIdentifier
-    static let musicCollectionViewCellIdentifier
+    static let musicCellIdentifier = "MusicCell"
+    static let musicCollectionViewCellIdentifier = "MusicCollectionViewCell"
     private init() {}
-}
+} 
 
 public struct CVCell {
     static let spacingWitdh: CGFloat
