@@ -19,6 +19,7 @@ public struct Cell {
 } 
 
 public struct CVCell {
-    static let spacingWitdh: CGFloat
-    static let cellColums: CGFloat
+    static let spacingWitdh: CGFloat = 1
+    static let cellColumns: CGFloat = 5
+    private init() {}
 }
